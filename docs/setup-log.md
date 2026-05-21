@@ -7,7 +7,7 @@ This document tracks every step taken to build and configure a Debian Linux virt
 ## Step 1: Virtual Machine Setup
 - Created Debian VM using VirtualBox
 - Allocated resources (CPU, RAM, disk)
-- Installed Debian 12
+- Installed Debian 13
 
 ---
 
