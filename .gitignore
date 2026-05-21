@@ -1,14 +1,22 @@
-*.tar
-*.tar.*
-*.jar
-*.exe
-*.msi
-*.deb
-*.zip
-*.tgz
-*.log
-*.log.*
-*.sig
+# OS files
+.DS_Store
+Thumbs.db
 
-pkg/
-src/
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+
+# VirtualBox files (optional safety)
+*.vdi
+*.vbox-prev
+*.vbox-tmp
+
+# SSH keys (NEVER commit these)
+id_rsa
+id_rsa.pub
+*.pem
+
+# Sensitive config backups
+*.bak
