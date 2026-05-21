@@ -1,60 +1,64 @@
 # Debian Linux Administration Lab
 
 ## Overview
-This project is a hands-on Linux administration lab built using Debian in a virtualized environment. It demonstrates core system administration, security, networking, and incident response skills.
+This project is a hands-on Linux administration lab built on Debian in a virtual machine. It demonstrates practical system administration, security configuration, and troubleshooting skills used in IT support, system administration, and cybersecurity roles.
 
 ---
 
-## Objectives
-- Deploy and configure a Debian Linux system
-- Implement secure remote access (SSH)
-- Configure firewall protection (UFW)
-- Perform user and permission management
-- Monitor system performance and logs
-- Simulate and resolve system incidents
+## Environment
+- Debian 13 (VirtualBox VM)
+- SSH access enabled
+- UFW firewall configured
+- Git version control (SSH authentication)
 
 ---
 
-## Technologies Used
-- Debian Linux
-- VirtualBox
-- OpenSSH
-- UFW Firewall
-- Linux CLI tools
-
----
-
-## Skills Demonstrated
-- Linux system administration
-- Network configuration
-- Security hardening
-- Service management
-- Log analysis
-- Incident response
-
----
-
-## Key Activities
+## What I Built
 
 ### System Setup
-- Installed and configured Debian VM
+- Installed and configured Debian Linux VM
 - Updated system packages
 - Installed core administration tools
 
 ### Security Configuration
-- Configured SSH access
-- Hardened SSH settings (disabled root login)
-- Enabled firewall (UFW)
+- Configured SSH remote access
+- Hardened SSH (disabled root login)
+- Enabled UFW firewall with SSH access only
 
 ### System Administration
 - User and group management
+- File permissions and ownership
 - Process and resource monitoring
-- Log analysis using journalctl and auth logs
+
+### Logging & Troubleshooting
+- System log analysis using journalctl
+- Authentication log review
+- Basic incident troubleshooting workflow
 
 ### Incident Simulation
 - Simulated SSH service failure
-- Diagnosed and restored service
-- Documented recovery process
+- Diagnosed service status issues
+- Restored service and documented recovery steps
+
+---
+
+## Key Skills Demonstrated
+- Linux system administration
+- Command-line proficiency
+- Network and firewall configuration
+- Security hardening
+- Log analysis and troubleshooting
+- Incident response basics
+- Git + SSH workflow
+
+---
+
+## Tools Used
+- Debian Linux
+- OpenSSH
+- UFW Firewall
+- systemctl / journalctl
+- Git (SSH authentication)
 
 ---
 
