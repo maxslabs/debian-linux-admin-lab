@@ -8,12 +8,12 @@ Thumbs.db
 # Temporary files
 *.tmp
 
-# VirtualBox files (optional safety)
+# VirtualBox files
 *.vdi
 *.vbox-prev
 *.vbox-tmp
 
-# SSH keys (NEVER commit these)
+# SSH keys
 id_rsa
 id_rsa.pub
 *.pem
