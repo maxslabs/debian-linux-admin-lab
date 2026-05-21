@@ -61,6 +61,3 @@ This project is a hands-on Linux administration lab built on Debian in a virtual
 - Git (SSH authentication)
 
 ---
-
-## Status
-Completed ✔
